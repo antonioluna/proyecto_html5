@@ -50,10 +50,10 @@ $(document).ready(function() {
 		$("#typed").typed({
 			strings: [
 				"Información",
-				"jajaja",
-				"jajajajajaja",
-				"jajajajaja",
-				"jaja"
+				"Curiosidades",
+				"Escenas",
+				"Temporadas",
+				"Diversión"
 			],
             typeSpeed: 20,
             backSpeed: 0,
