@@ -49,11 +49,11 @@ $(document).ready(function() {
 	$(function(){
 		$("#typed").typed({
 			strings: [
-				"website design",
-				"front-end coding",
-				"SEO Optimisation",
-				"Making Coffee",
-				"Delivering Results"
+				"Información",
+				"jajaja",
+				"jajajajajaja",
+				"jajajajaja",
+				"jaja"
 			],
             typeSpeed: 20,
             backSpeed: 0,
