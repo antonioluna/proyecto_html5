@@ -95,7 +95,7 @@ img
 
 .bg1
 {
-	background: #FFF url("../images/menu-principal.jpg") no-repeat;
+	background: #FFF url("../images/menú-principal.jpg") no-repeat;
 	background-size: cover;
 }
 
