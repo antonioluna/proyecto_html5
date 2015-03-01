@@ -28,8 +28,8 @@ Quotation[24] = "Según el director y productor de la serie David Silverman, Spr
 Quotation[25] = "Herman perdió el brazo al sacarlo por la ventanilla del autobús contradiciendo a su profesor"; 
 Quotation[26] = "La familia Simpson fue creada en 15 minutos mientras Matt Groening esperaba en el recibidor de la oficina de James L. Brooks, una historia confirmada por el mismo Groening en una entrevista con Oprah Winfrey."; 
 Quotation[27] = "El Pelo de Bart esta comformado siempre por 9 puntas"; 
-Quotation[28] = "En el episodio “Y con Maggie Tres”, Homero tiene 3 pelos en la cabeza, y se arranca uno cuando se enterá que Marge está embarazada, quedandole los dos habituales. en el mismo episodio muestran como va quedando pelado Homero y es que cada ves que se entera de que Marge esta enbarazada se arranca pelos de su cabeza "; 
-Quotation[29] = "El personaje favorito de los internautas es “Homero” con diferencia, seguido de “Bart” y de “Ralph Wiggun“. “Lisa” es la cuarta, “Maggie” la octava y “Marge” está en el puesto 30"; 
+Quotation[28] = "En el episodio “Y con Maggie Tres”, Homer tiene 3 pelos en la cabeza, y se arranca uno cuando se enterá que Marge está embarazada, quedandole los dos habituales. en el mismo episodio muestran como va quedando pelado Homer y es que cada ves que se entera de que Marge esta enbarazada se arranca pelos de su cabeza "; 
+Quotation[29] = "El personaje favorito de los internautas es “Homer” con diferencia, seguido de “Bart” y de “Ralph Wiggun“. “Lisa” es la cuarta, “Maggie” la octava y “Marge” está en el puesto 30"; 
 Quotation[30] = "En el intro de la serie cuando el vendedor pasa a Maggie se ve que cuesta 847,63 Dólares este era el costo de mantencion por mes de un bebe en Estados Unidos"; 
 Quotation[31] = "La loca de los gatos era una niña prodigio, se matriculó en Yale, doctorado y abogacia. Pero acabó consumida en el alcohol y se obsesionó con su gato"; 
 Quotation[32] = "Apu está licenciado en ingeniería y doctor de informática"; 
@@ -37,8 +37,8 @@ Quotation[33] = "Homer viajó a Holanda solo para comer Tulipanes";
 Quotation[34] = "Abraham Simpson, el abuelo, ha estado con 5 mujeres en toda su vida, con 3 de ellas tuvo 1 hijo correspondientemente: Homer Jay Simpson, Herb Powell, y Abbie (su hija inglesa)"; 
 Quotation[35] = "Kirk Van Houten trabajaba en la fábrica de galletas Southern Cracker, pero debido a su inexperiencia, la fábrica, hasta el momento en primer lugar, bajó al sexto de la ciudad."; 
 Quotation[36] = "El bajo Intelecto de Homer Simpson no se debe ni a experimetos en el ejército, ni a los constantes golpes de cabeza, electro-shocks, la constante exposición a radicación en la planta nuclear, ni mucho menos al gen “Simpson” en el cromosoma “Y”, si no que segun un capítulo de la serie es por que tiene en el cerebro un lápiz de cera para colorear que el mismo se metió durante su niñez"; 
-Quotation[37] = "La palabra que Homero expresa como queja, ¡Ou! (”D’oh!”, inglés) que la usa típicamente cuando se hace daño, se da cuenta de que ha hecho algo estúpido o malo, o cuando algo malo le ha pasado, no fue invetada por él, si no que la aprendió de su Padre, Abraham Simpson. Esta frase que ha hecho tan famosa se ha agregado al Diccionario Oxford de inglés"; 
-Quotation[38] = "En el episodio 299 dieron la dirección de correo electrónico de Homero, chunkylover53 aol.com. El productor y escritor Matt Groening registró la dirección antes de la emisión del episodio. El contesta desde entonces a los fans que escribieron a esa dirección después del episodio"; 
+Quotation[37] = "La palabra que Homer expresa como queja, ¡Ou! (”D’oh!”, inglés) que la usa típicamente cuando se hace daño, se da cuenta de que ha hecho algo estúpido o malo, o cuando algo malo le ha pasado, no fue invetada por él, si no que la aprendió de su Padre, Abraham Simpson. Esta frase que ha hecho tan famosa se ha agregado al Diccionario Oxford de inglés"; 
+Quotation[38] = "En el episodio 299 dieron la dirección de correo electrónico de Homer, chunkylover53 aol.com. El productor y escritor Matt Groening registró la dirección antes de la emisión del episodio. El contesta desde entonces a los fans que escribieron a esa dirección después del episodio"; 
 
 // Calculamos la longitud el vector (número de frases del stock)
 var Q = Quotation.length; 
