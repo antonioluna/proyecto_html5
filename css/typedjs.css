@@ -1,0 +1,131 @@
+.type-wrap
+{
+	font-family: "Montserrat";
+	text-transform: uppercase;
+	font-size: 34px;
+	line-height: 34px;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+
+	.type-wrap p:first-child
+	{
+		margin: 0;
+	}
+
+	.type-wrap span#typed
+	{
+		color: #FCE011;
+		font-weight: 700;
+		font-size: 70px;
+		line-height: 70px;
+		letter-spacing: -2px;
+	}
+
+	/** Cursor Styles **/
+	
+	.typed-cursor
+	{
+		opacity: 1;
+		font-weight: 100;
+		font-size: 70px;
+		line-height: 70px;
+		padding-left: 5px;
+		color: #FFF;
+		
+		-webkit-animation: blink 0.5s infinite;
+		-moz-animation: blink 0.5s infinite;
+		-ms-animation: blink 0.5s infinite;
+		-o-animation: blink 0.5s infinite;
+		animation: blink 0.5s infinite;
+	}
+	
+		@-keyframes blink {
+			0% { opacity:1; }
+			50% { opacity:0; }
+			100% { opacity:1; }
+		}
+
+		@-webkit-keyframes blink {
+			0% { opacity:1; }
+			50% { opacity:0; }
+			100% { opacity:1; }
+		}
+
+		@-moz-keyframes blink {
+			0% { opacity:1; }
+			50% { opacity:0; }
+			100% { opacity:1; }
+		}
+
+		@-ms-keyframes blink {
+			0% { opacity:1; }
+			50% { opacity:0; }
+			100% { opacity:1; }
+		}
+
+		@-o-keyframes blink {
+			0% { opacity:1; }
+			50% { opacity:0; }
+			100% { opacity:1; }
+		}
+
+
+/* ==================================================
+   Responsive Media Queries - Tablets
+================================================== */
+
+@media screen and (max-width: 768px)
+{
+	
+	.type-wrap
+	{
+		font-size: 26px;
+		line-height: 26px;
+		letter-spacing: -0.6px;
+	}
+	
+		.type-wrap span#typed
+		{
+			font-size: 54px;
+			line-height: 54px;
+			letter-spacing: -1px;
+		}
+
+		.typed-cursor
+		{
+			font-size: 54px;
+			line-height: 54px;
+		}
+	
+}
+
+/* ==================================================
+   Responsive Media Queries - Mobiles
+================================================== */
+
+@media screen and (max-width: 480px)
+{		
+	
+	.type-wrap
+	{
+		font-size: 20px;
+		line-height: 20px;
+		letter-spacing: -0.4px;
+	}
+	
+		.type-wrap span#typed
+		{
+			font-size: 32px;
+			line-height: 32px;
+			letter-spacing: -1px;
+		}
+
+		.typed-cursor
+		{
+			font-size: 32px;
+			line-height: 32px;
+		}
+	
+}
+

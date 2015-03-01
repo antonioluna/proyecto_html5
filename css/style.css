@@ -1,0 +1,462 @@
+/* ==================================================
+   CSS Imports
+================================================== */
+
+@import url("reset.css");
+@import url("columns.css");
+@import url("animate.css");
+@import url("typography.css");
+@import url("animate.css");
+@import url("typedjs.css");
+
+/* ==================================================
+   Icon Fonts
+================================================== */
+
+@import url("fonts/fontawesome/font-awesome.css");
+
+/* ==================================================
+   Google Fonts
+================================================== */
+
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+/* ==================================================
+   Global Styles
+================================================== */
+
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html
+{
+	height: 100%;
+	overflow: auto;
+	
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body
+{
+	font-family: "Source Sans Pro", Arial, Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #444;
+	background: #FCE011;
+	z-index: auto;
+	
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+}
+
+::selection
+{
+	background: #000;
+	color: #FFF;
+}
+
+::-moz-selection
+{
+	background: #000;
+	color: #FFF;
+}
+
+a
+{
+	color: #FCE011;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #222;
+}
+
+/* ==================================================
+   Images
+================================================== */
+
+img
+{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+}
+
+/* ==================================================
+   Colours
+================================================== */
+
+.bg1
+{
+	background: #FFF url("../images/bg-gallerycont.jpg") no-repeat;
+	background-size: cover;
+}
+
+.bg2
+{
+	background: #FFF;
+	border-top: 5px solid #FCE011;
+}
+
+/* ==================================================
+   Images
+================================================== */
+
+img
+{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+}
+
+	img.imgright
+	{
+		float: right;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 0 20px 20px;
+	}
+	
+	img.imgleft
+	{
+		float: left;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 20px 20px 0;
+	}
+
+/* ==================================================
+   Layout Styles
+================================================== */
+
+.container
+{
+	width: 100%;
+	padding: 0 30px;
+	min-width: 280px;
+	line-height: 26px;
+}
+
+	.container .bodycontainer
+	{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1140px;
+	}
+	
+/* ==================================================
+   Sections
+================================================== */
+
+#pageslide
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+	overflow: auto;
+    width: 100%;
+	max-width: 260px;
+    background: #252525;
+}
+
+	#sidebar
+	{
+		position: relative;
+		display: none;
+		padding: 30px;
+		color: #FFF;
+	}
+	
+		#sidebar p.closebutton
+		{
+			position: absolute;
+			margin: 0 0 80px 0;
+			top: 0;
+		}
+		
+			#sidebar p.closebutton a
+			{
+				display: inline-block;
+				color: #FFF;
+				padding: 15px 0;
+				font-size: 30px;
+			}
+	
+		#sidebar #mainmenu
+		{
+			margin: 40px 0 20px 0;
+		}
+		
+			#sidebar #mainmenu ul
+			{
+				float: left;
+				width: 100%;
+				margin: 0;
+				list-style-type: none;
+			}
+			
+				#sidebar #mainmenu ul li
+				{
+					display: block;
+				}
+				
+					#sidebar #mainmenu ul li a
+					{
+						float: left;
+						width: 100%;
+						color: #FFF;
+						padding: 10px 0;
+						font-weight: 700;
+						font-family: "Montserrat";
+						text-transform: uppercase;
+					}
+						
+					#sidebar #mainmenu ul li a:hover,
+					#sidebar #mainmenu ul li.active a
+					{
+						color: #FCE011;
+					}
+
+#headercont
+{
+	position: relative;
+	padding: 160px 0 80px 0;
+	color: #FFF;
+}
+
+	#headercont #logocont
+	{
+		position: absolute;
+		margin: 0;
+		top: 0;
+		left: 0;
+	}
+	
+		#headercont #logocont p a
+		{
+			float: left;
+			font-size: 38px;
+			line-height: 85px;
+			background: #252525;
+			padding: 0 30px;
+			color: #FCE011;
+			font-weight: 700;
+			font-family: "Montserrat";
+			text-transform: uppercase;
+		}
+		
+			#headercont #logocont p a:hover
+			{
+				background: #FCE011;
+				color: #252525;
+			}
+
+	#headercont p.menubutton
+	{
+		position: absolute;
+		margin: 0;
+		top: 0;
+		right: 0;
+	}
+	
+		#headercont p.menubutton a
+		{
+			display: inline-block;
+			color: #FCE011;
+			background: #252525;
+			padding: 0 15px;
+			font-size: 28px;
+			line-height: 85px;
+			
+			-webkit-transition: padding 0.1s linear;
+			-moz-transition: padding 0.1s linear;
+			-o-transition: padding 0.1s linear;
+			transition: padding 0.1s linear;
+		}
+		
+			#headercont p.menubutton a:hover
+			{
+				background: #FCE011;
+				color: #252525;
+			}
+			
+#maincont
+{
+	padding: 45px 0;
+}
+
+	#maincont #mainleft
+	{
+		float: left;
+		width: 70%;
+		padding-right: 25px;
+	}
+	
+	#maincont #mainright
+	{
+		float: left;
+		width: 30%;
+		padding-left: 25px;
+	}
+		
+#footercont
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+	#footercont p
+	{
+		margin: 0;
+	}
+
+	#footercont a
+	{
+		color: rgba(0, 0, 0, 0.8);
+	}
+	
+	#footercont a:hover
+	{
+		color: rgba(0, 0, 0, 1.0);
+	}
+	
+		#footercont a#backtotop
+		{
+			font-size: 42px;
+		}
+	
+		#footercont #socialmedia ul
+		{
+			margin: 0 0 20px 0;
+		}
+
+		#footercont #socialmedia ul li
+		{
+			display: inline-block;
+			list-style-type: none;
+			margin: 0 12px 0 0;
+			padding: 0;
+		}
+
+			#footercont #socialmedia ul li a
+			{
+				font-size: 27px;
+			}
+
+/* ==================================================
+   Responsive Media Queries - Tablets
+================================================== */
+
+@media screen and (max-width: 768px)
+{
+	
+	body
+	{
+		z-index: 0;
+	}
+	
+	img.imgright
+	{
+		float: none;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 0 20px 0;
+	}
+	
+	img.imgleft
+	{
+		float: none;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 0 20px 0;
+	}
+	
+	.container
+	{
+		padding: 0 25px;
+	}
+	
+	#sidebar
+	{
+		padding: 25px;
+	}
+	
+	#headercont
+	{
+		padding: 160px 0 70px 0;
+	}
+	
+		#headercont #logocont p a
+		{
+			font-size: 32px;
+			line-height: 75px;
+			padding: 0 20px;
+		}
+
+		#headercont p.menubutton a
+		{
+			font-size: 24px;
+			line-height: 75px;
+		}
+	
+	#maincont
+	{
+		padding: 30px 0;
+	}
+	
+		#maincont #mainleft
+		{
+			width: 100%;
+			padding-right: 0;
+		}
+		
+		#maincont #mainright
+		{
+			width: 100%;
+			padding-left: 0;
+		}
+	
+}
+
+/* ==================================================
+   Responsive Media Queries - Mobiles
+================================================== */
+
+@media screen and (max-width: 480px)
+{		
+	
+	.container
+	{
+		padding: 0 20px;
+	}
+	
+	#sidebar
+	{
+		padding: 20px;
+	}
+	
+	#headercont #logocont p a
+	{
+		font-size: 28px;
+		line-height: 65px;
+		padding: 0 20px;
+	}
+
+	#headercont p.menubutton a
+	{
+		font-size: 22px;
+		line-height: 65px;
+	}
+	
+}
+
