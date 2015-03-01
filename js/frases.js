@@ -47,6 +47,46 @@ var Q = Quotation.length;
 //Utilizando la clase Math y el método random(). 
 var whichQuotation=Math.round(Math.random()*(Q-1)); 
 
+// Obtener un número aleatorio entre 1 y la cantidad de frases incluidas 
+//Utilizando la clase Math y el método random(). 
+var whichQuotation1=Math.round(Math.random()*(Q-1)); 
+
+// Obtener un número aleatorio entre 1 y la cantidad de frases incluidas 
+//Utilizando la clase Math y el método random(). 
+var whichQuotation2=Math.round(Math.random()*(Q-1)); 
+
+// Obtener un número aleatorio entre 1 y la cantidad de frases incluidas 
+//Utilizando la clase Math y el método random(). 
+var whichQuotation3=Math.round(Math.random()*(Q-1)); 
+
+// Obtener un número aleatorio entre 1 y la cantidad de frases incluidas 
+//Utilizando la clase Math y el método random(). 
+var whichQuotation4=Math.round(Math.random()*(Q-1)); 
+
+// Obtener un número aleatorio entre 1 y la cantidad de frases incluidas 
+//Utilizando la clase Math y el método random(). 
+var whichQuotation5=Math.round(Math.random()*(Q-1)); 
+
 // Creamos una función para mostrar la frase 
 function showQuotation() { 
 document.write(Quotation[whichQuotation]);}
+
+// Creamos una función para mostrar la frase 2
+function showQuotation1() { 
+document.write(Quotation[whichQuotation1]);}
+
+// Creamos una función para mostrar la frase 3
+function showQuotation2() { 
+document.write(Quotation[whichQuotation2]);}
+
+// Creamos una función para mostrar la frase 4
+function showQuotation3() { 
+document.write(Quotation[whichQuotation3]);}
+
+// Creamos una función para mostrar la frase 5
+function showQuotation4() { 
+document.write(Quotation[whichQuotation4]);}
+
+// Creamos una función para mostrar la frase 6
+function showQuotation5() { 
+document.write(Quotation[whichQuotation5]);}
