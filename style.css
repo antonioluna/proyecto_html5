@@ -106,46 +106,6 @@ img
 }
 
 /* ==================================================
-   Tablas
-================================================== */
-
-table 
-{
-	border: black 2px solid; 
-  	background: #252525 ;
-	width: 70%; 
-	
-}
-
-	tr 
-	{
-  		border: black 2px solid;
-		text-align:center; 
-    		vertical-align:middle;
-	}
-
-	td 
-	{
-		border: black 2px solid;
-		text-align:center; 
-    		vertical-align:middle;
-	}
-
-#table a:link
-{
-	color: #fee502; 
-}
-
-#table a:hover
-{
-	color: #ff0004; 
-}
-
-#table a:visited
-{
-	color: #2ac719; 
-}
-/* ==================================================
    Images
 ================================================== */
 

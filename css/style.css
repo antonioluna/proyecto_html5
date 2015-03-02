@@ -106,24 +106,29 @@ img
 }
 
 /* ==================================================
-   Tabla
+   Tablas
 ================================================== */
 
 table 
 {
 	border: black 2px solid; 
   	background: #252525 ;
+	width: 80%; 
 	
 }
 
 	tr 
 	{
   		border: black 2px solid;
+		text-align:center; 
+    		vertical-align:middle;
 	}
 
 	td 
 	{
-  		border: black 2px solid; 
+		border: black 2px solid;
+		text-align:center; 
+    		vertical-align:middle;
 	}
 
 #table a:link
