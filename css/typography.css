@@ -123,6 +123,20 @@ hr
 	text-align: center;
 }
 
+table
+{
+}
+	tr 
+	{
+		color: #fff;
+	}
+
+	td 
+	{
+		color: #fff;
+	}
+
+
 
 @media screen and (max-width: 768px)
 {

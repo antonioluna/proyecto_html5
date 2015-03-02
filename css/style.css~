@@ -109,15 +109,37 @@ img
    Tabla
 ================================================== */
 
-table {
-  border: gray 2px solid; }
+table 
+{
+	border: black 2px solid; 
+  	background: #252525 ;
+	
+}
 
-tr {
-  border: gray 2px solid; }
+	tr 
+	{
+  		border: black 2px solid;
+	}
 
-td {
-  border: gray 2px solid; }
+	td 
+	{
+  		border: black 2px solid; 
+	}
 
+#table a:link
+{
+	color: #fee502; 
+}
+
+#table a:hover
+{
+	color: #ff0004; 
+}
+
+#table a:visited
+{
+	color: #ff0004; 
+}
 /* ==================================================
    Images
 ================================================== */
